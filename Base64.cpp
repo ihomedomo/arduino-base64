@@ -1,5 +1,5 @@
 #include "Base64.h"
-#include <avr/pgmspace.h>
+#include <pgmspace.h>
 const char PROGMEM b64_alphabet[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 		"abcdefghijklmnopqrstuvwxyz"
 		"0123456789+/";
